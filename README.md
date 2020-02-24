@@ -36,7 +36,7 @@ Screenshot of Page
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Samitti/Samuel---Osong-Youtybe-Clone-project/issues).
 
 ## Show your support
 
