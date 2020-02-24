@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
 body {
     background-color: whitesmoke;
     width: 100%;
@@ -9,7 +15,10 @@ header {
     background-color: white;
 }
 main{
-    width: 70%;
+    width: 50%;
+    float: left;
+    border: 2px solid black;
+    padding-right: 0px;
 }
 
 .icon a {
@@ -87,7 +96,7 @@ main{
 }
 .video{
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 .viewers{
     
@@ -98,23 +107,93 @@ main{
 .views{
     float: left;   
     color: #606060;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 .view-icons{
     display: inline;
     float: right;
-    margin-top: 15px;
-
+    margin-top: 10px;
+    margin-left: 30px;
 }
 .view-icons i{
     color: #606060;
-    margin-right: 20px;
+    margin-right: 15px;
+       
     
 }
 hr{
-    margin: 50px 0 15 0; 
+    margin-right: 27px;
+    margin-left: 25px;
     color: #d1d1d1;
+    background-color: #d1d1d1;
+
 
 }
+.owner-acc {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    -ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+    margin-top: 20px;
+}
 
+.owner-acc-pic {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+.user-icon {
+    margin-right:10px;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    margin-left: 25px;
+}
+.user-icon img{
+    width: 100%;
+    height: auto;
+}
+.show-more-btn .a-link {
+    color:#606060;
+    text-decoration:none;
+    margin-top: 8px;
+    font-weight: 500;
+    letter-spacing: 0.007px;
+}
+
+.user-title {
+    font-weight:600;
+}
+.posted-date {
+    font-weight:200;
+    color:grey;
+}
+
+.subscribe {
+    text-transform:uppercase;
+    margin-top: 20px;
+    margin-right: 27px;
+}
+.subscribe span {
+    text-decoration:none;
+    padding:10px 17px;
+    background:red;
+    color:white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: .007px;
+    border-radius: 2px;
+}
+.video-description {
+    padding-top:11px;
+    margin:0 80px;
+}
+.video-description p {
+    margin-bottom:10px;
+}
