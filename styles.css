@@ -8,6 +8,9 @@ body {
 header {
     background-color: white;
 }
+main{
+    width: 70%;
+}
 
 .icon a {
     color: #606060;
@@ -82,3 +85,36 @@ header {
 .right-icons {
     color: #606060;
 }
+.video{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.viewers{
+    
+    display: inline-flex; 
+    justify-content: center;
+    margin-right: 100px;
+}
+.views{
+    float: left;   
+    color: #606060;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.view-icons{
+    display: inline;
+    float: right;
+    margin-top: 15px;
+
+}
+.view-icons i{
+    color: #606060;
+    margin-right: 20px;
+    
+}
+hr{
+    margin: 50px 0 15 0; 
+    color: #d1d1d1;
+
+}
+
