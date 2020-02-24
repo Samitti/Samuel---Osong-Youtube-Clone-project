@@ -1,0 +1,40 @@
+body {
+    background-color: blueviolet;
+}
+
+header {
+    background-color: white;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+}
+
+.logo {
+    width:  100px ;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+    /* flex: none; */
+    
+}
+
+.right-elts {
+    float: right;
+    display: inline-flex; 
+    justify-content: center;
+}
+
+
+.right-elts > div{
+    margin-right: 50px;
+    margin-top: 20px;
+}
