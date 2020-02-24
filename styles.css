@@ -197,3 +197,77 @@ hr{
 .video-description p {
     margin-bottom:10px;
 }
+.comments {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    margin-bottom:19px;
+}
+.comments p{
+    padding-right:40px;
+    margin-left: 30px;
+    
+}
+
+#sort {
+    color: #606060;
+    font-weight: 600;
+}
+.comment {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    margin-bottom:45px;
+}
+
+.comment-writer{
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}
+
+.comment-writer p {
+    margin-bottom:10px;
+}
+
+.comment-writer-id {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+.comment-writer-id p {
+    color:grey;
+}
+.commenter {
+    padding-right:10px;
+    margin-bottom:10px;
+}
+
+.comment-user-icon {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    margin-bottom:9px;
+}
+
+.comment-user-icon img {
+    margin-right:8px;
+}
+
+.reply {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #606060;
+    font-weight: 700;
+}
