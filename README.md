@@ -2,6 +2,8 @@
 
 > The aim of this project was to create a clone of the YouTube video page.
 
+Screenshot of Page
+
 ![screenshot](img/screen.png)
 
 
