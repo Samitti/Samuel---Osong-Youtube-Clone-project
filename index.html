@@ -6,6 +6,7 @@
     <title>YouTube Clone</title>
     <link rel="stylesheet" href="all.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/640b8b4dbe.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -40,11 +41,11 @@
     </header>
     <!-- Header/Navs End -->
     <!-- Main Section -->
-    <main>
+    <main class="main-section">
         <div class="video">
-            <iframe width="95%" height="400px" 
+            <iframe 
             src="https://www.youtube.com/embed/HTde_bj_-bM" 
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
             </iframe>
         </div>
@@ -150,9 +151,45 @@
                   </div>
                 </div>
               </div>
-
-          
+              <!-- End of comments -->
+              <!-- End of main section -->
     </main>
+    <aside>
+        <div class="up-next">
+            <p>Up next</p>
+            <img src="img/autoplay.PNG" alt="" />
+        </div>
+
+           <!-- first thumbnail -->
+           <div class="thumbnail">
+                <img src="img/thumbnail-5.jpg" alt="">
+                <div class="thumb-text">
+                    <h3>How to make an animated short film</h3>
+                    <p>Totally free</p>
+                    <p>8M views</p>
+                </div>
+            </div>
+            <br>
+            <hr id="line">
+
+            <!-- second thumbnail -->
+           <div class="thumbnail">
+            <img src="img/thumbnail-6.jpg" alt="">
+            <div class="thumb-text">
+                <h3>Learn 3d animation in 10 minutes</h3>
+                <p>50k views</p>
+            </div>
+        </div>
+
+        <!-- third thumbnail -->
+        <div class="thumbnail">
+            <img src="img/thumbnail-7.jpg" alt="">
+            <div class="thumb-text">
+                <h3>3d animations for you</h3>
+                <p>450k views</p>
+            </div>
+        </div>
+    </aside>
 
 
 </body>

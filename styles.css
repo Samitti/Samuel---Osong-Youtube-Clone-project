@@ -15,10 +15,21 @@ header {
     background-color: white;
 }
 main{
-    width: 50%;
+    width: 55%;
     float: left;
-    border: 2px solid black;
-    padding-right: 0px;
+    position: absolute;
+    left: 100px;
+    
+}
+
+iframe{
+    width: 95%;
+    height: 400px;
+}
+
+aside {
+    position: relative;
+    margin-right: 100px;
 }
 
 .icon a {
@@ -29,6 +40,10 @@ main{
     height: 70px;
     width: 100%;
     margin-left: 0px;
+    position: sticky;
+}
+.main-section{
+    z-index: -1;
 }
 
 .logo {
@@ -113,9 +128,11 @@ main{
 }
 .view-icons{
     display: inline;
-    float: right;
+    /* float: right; */
     margin-top: 10px;
     margin-left: 30px;
+    position: relative;
+    left: 150px;
 }
 .view-icons i{
     color: #606060;
@@ -270,4 +287,59 @@ hr{
     white-space: nowrap;
     color: #606060;
     font-weight: 700;
+}
+
+aside {
+	width: 30%;
+    height: auto;
+    float: right;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+
+.up-next {
+    margin-top: 20px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+}
+
+
+.thumbnail{
+	background-color: whitesmoke;
+	margin: 5px 0;
+	display: flex;
+	align-items: flex-start;
+
+	
+}
+
+.thumbnail img {
+	padding-top: 10px;
+	padding-right: 10px;
+	width: 70%;
+	cursor: pointer;
+}
+
+.thumb-text {
+	cursor: pointer;
+}
+.thumb-text p {
+	font-size: 13px;
+	font-weight: 500;
+	margin: 0;
+	color: grey;
+}
+
+.thumb-text h3{
+    margin-top: 15px;
+}
+
+#line{
+    width: auto;
+    margin-left: 0;
+    color: #606060;
 }
