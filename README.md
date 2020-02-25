@@ -4,7 +4,7 @@
 
 Screenshot of Page
 
-![screenshot](img/screen.png)
+![screenshot](img/screen2.png)
 
 
 ## Built With
