@@ -17,9 +17,19 @@ header {
 main{
     width: 55%;
     float: left;
-    padding-right: 0px;
-    margin-right: 0px;
+    position: absolute;
+    left: 100px;
     
+}
+
+iframe{
+    width: 95%;
+    height: 400px;
+}
+
+aside {
+    position: relative;
+    margin-right: 100px;
 }
 
 .icon a {
@@ -118,9 +128,11 @@ main{
 }
 .view-icons{
     display: inline;
-    float: right;
+    /* float: right; */
     margin-top: 10px;
     margin-left: 30px;
+    position: relative;
+    left: 150px;
 }
 .view-icons i{
     color: #606060;
@@ -297,7 +309,7 @@ aside {
 
 
 .thumbnail{
-	background-color: #f9f9f9;
+	background-color: whitesmoke;
 	margin: 5px 0;
 	display: flex;
 	align-items: flex-start;
