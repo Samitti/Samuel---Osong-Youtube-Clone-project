@@ -15,7 +15,7 @@ Screenshot of Page
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://samitti.github.io/Samuel---Osong-Youtybe-Clone-project/)
 
 
 ## Authors
@@ -29,8 +29,8 @@ Screenshot of Page
 👤 **Samuel Teweldebrhan Ghebremeskel**
 
 - Github: [@githubhandle](https://github.com/Samitti)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/Samuel63734232)
+- Linkedin: [linkedin](https://www.linkedin.com/in/samuel-ghebremeskel-29685811a/)
 
 ## 🤝 Contributing
 
